@@ -1,0 +1,34 @@
+Na ovaj nacin sam testirao sve funkcionalnosti kroz SK_Test Main u kom je sada testna konzolna aplikacija
+
+// LOCAL STORAGE TESTING
+        //LocalStorageImpl.getInstance().initialiseStorage("C:\\Users\\Djordje Zivanovic\\SK\\root");
+        //LocalStorageImpl.getInstance(); //inicijalizuje storage
+        //LocalStorageImpl.getInstance().addUser("mika","mikic", false,false,true,false);
+        //LocalStorageImpl.getInstance().setCurrentUser("mika");
+        //LocalStorageImpl.getInstance().makeDirectory("\\TestDir\\Dublje\\Najdublje");
+        //LocalStorageImpl.getInstance().makeFile("\\dir\\dirrr\\fajl.java");
+        //String[] flist = {"C:\\Users\\Djordje Zivanovic\\Desktop\\iTutor\\iTutor_backdrop_4k.png","C:\\Users\\Djordje Zivanovic\\Desktop\\iTutor\\iTutor_PAYROLL-Onboarding_Instructions.pdf"};
+        //LocalStorageImpl.getInstance().upload(flist,"\\dir");
+        //LocalStorageImpl.getInstance().uploadToBeZipped("\\TestDir\\Dublje","ziptest",flist);
+        //LocalStorageImpl.getInstance().download("C:\\Users\\Djordje Zivanovic\\Desktop\\iTutor\\IMG-7d28a1d4430bd9cb1d9e383044600ffc-V.jpg","C:\\Users\\Djordje Zivanovic\\SK\\root\\TestDir\\Dublje\\Najdublje");
+        //LocalStorageImpl.getInstance().deleteDirectory("\\TestDir\\Dublje");
+        //LocalStorageImpl.getInstance().deleteFile("\\dir\\dirrr\\fajl.java");
+        //System.out.println(LocalStorageImpl.getInstance().isAdmin("djidji"));
+        //LocalStorageImpl.getInstance().addRestrictedExtension("txt");
+        //LocalStorageImpl.getInstance().previewStorage("\\folder\\folder2","all");
+        //LocalStorageImpl.getInstance().setMeta("C:\\Users\\Djordje Zivanovic\\SK\\root\\kkk","verzija","1.1");
+        //LocalStorageImpl.getInstance().getMeta("C:\\Users\\Djordje Zivanovic\\SK\\root\\kkk","verzija");
+
+// REMOTE STORAGE TESTING
+        //RemoteStorageImpl.getInstance().initialiseStorage("/storage");
+        //RemoteStorageImpl.getInstance().addUser("kmet","ssss",false,false,false,false);
+        //RemoteStorageImpl.getInstance().makeDirectory("/folder/bbbb");
+        //RemoteStorageImpl.getInstance().makeFile("/folder/blaba.jpg");
+        //RemoteStorageImpl.getInstance().upload(flist,"/folder/kkk");
+        //RemoteStorageImpl.getInstance().uploadToBeZipped("/folder","testZip",flist);
+        //RemoteStorageImpl.getInstance().download("/storage/folder/kkk/iTutor_backdrop_4k.png","C:\\Users\\Djordje Zivanovic\\Desktop");
+        //RemoteStorageImpl.getInstance().deleteDirectory("/folder/kkk/ooo");
+        //RemoteStorageImpl.getInstance().deleteFile("/folder/kkk/iTutor_backdrop_4k.png");
+        //RemoteStorageImpl.getInstance().previewStorage("/folder","all");
+        //RemoteStorageImpl.getInstance().setMeta("/storage/users.txt","version","6.0");
+        //RemoteStorageImpl.getInstance().getMeta("/storage/users.meta","version");

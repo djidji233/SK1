@@ -1,0 +1,35 @@
+//LOCAL STORAGE
+    djidji,1234,C:\Users\Djordje Zivanovic\SK\root
+    add_user>>>username,password,adminPrivilege,uploadPrivilege,downloadPrivilege,deletePrivilege
+    make_directory>>>\TestDir\Dublje\Najdublje  (BITNO! pravilno ukucati slasheve)
+    make_file>>>\dir\dirrr\fajl.java (BITNO! pravilno ukucati slasheve) (ako direktorijumi pre ne postoje,napravice ih)
+    upload>>>C:\Users\Djordje Zivanovic\Desktop\iTutor\iTutor_backdrop_4k.png,C:\Users\Djordje Zivanovic\Desktop\iTutor\iTutor_PAYROLL-Onboarding_Instructions.pdf>>>\dir
+    upload_to_be_zipped>>>\TestDir\Dublje>>>ziptest>>>C:\Users\Djordje Zivanovic\Desktop\iTutor\iTutor_backdrop_4k.png,C:\Users\Djordje Zivanovic\Desktop\iTutor\iTutor_PAYROLL-Onboarding_Instructions.pdf
+    download>>>C:\Users\Djordje Zivanovic\Desktop\iTutor\iTutor_backdrop_4k.png>>>C:\Users\Djordje Zivanovic\Desktop
+    delete_directory>>>\TestDir\Dublje
+    delete_file>>>\dir\dirrr\fajl.java
+    preview_storage>>>\TestDir>>>all
+    is_admin>>>djidji
+    is_restricted_extension>>>txt
+    add_restricted_extension>>>txt
+    remove_restricted_extension>>>txt
+    set_meta>>>C:\Users\Djordje Zivanovic\SK\root\TestDir>>>kljuc>>>vrednost
+    get_meta>>>C:\Users\Djordje Zivanovic\SK\root\TestDir>>>kljuc
+
+//REMOTE STORAGE
+    djidji,1234,/storage
+    add_user>>>username,password,adminPrivilege,uploadPrivilege,downloadPrivilege,deletePrivilege
+    make_directory>>>/folder/folder2  (BITNO! pravilno ukucati slasheve)
+    make_file>>>/folder3/blabla.jpg (BITNO! pravilno ukucati slasheve) (ako direktorijumi pre ne postoje,napravice ih)
+    upload>>>C:\Users\Djordje Zivanovic\Desktop\iTutor\iTutor_backdrop_4k.png,C:\Users\Djordje Zivanovic\Desktop\iTutor\iTutor_PAYROLL-Onboarding_Instructions.pdf>>>/folder
+    upload_to_be_zipped>>>/folder>>>ziptest>>>C:\Users\Djordje Zivanovic\Desktop\iTutor\iTutor_backdrop_4k.png,C:\Users\Djordje Zivanovic\Desktop\iTutor\iTutor_PAYROLL-Onboarding_Instructions.pdf
+    download>>>/storage/folder/iTutor_backdrop_4k.png>>>C:\Users\Djordje Zivanovic\Desktop
+    delete_directory>>>/folder/folder2
+    delete_file>>>/folder3/blabla (bez ekstenzije)
+    preview_storage>>>/folder>>>all
+    is_admin>>>djidji
+    is_restricted_extension>>>txt
+    add_restricted_extension>>>txt
+    remove_restricted_extension>>>txt
+    set_meta>>>/storage/users.txt>>>kljuc>>>vrednost
+    get_meta>>>/storage/users.meta>>>kljuc
